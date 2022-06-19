@@ -1,11 +1,14 @@
 import React, { useContext } from 'react';
 import { useEffect,useState } from 'react';
 import "./cart.css";
-import axios from "axios"
+import axios from "axios";
+import CartSingle from "./Cartsingle"
 import { CartContext } from '../../context/CartContext';
+import { Navigate, useNavigate } from 'react-router-dom';
 
 const Cart = () => {
   const {getCount}=useContext(CartContext);
+  const navigate=useNavigate()
     const[data,setData]=useState([])
     useEffect(()=>{
       getData();
@@ -20,20 +23,49 @@ const Cart = () => {
         axios.delete(`http://localhost:8080/cart/${id}`)
         .then((res)=>{getData();getCount()});
     }
-   
-  return (
-    <div className='cartmain'>
-        {data.map((cart)=>
-    <div>
-        <h1>{cart.title}</h1>
-        <button onClick={()=>removecartitem(cart.id)}>Remove</button>
-    </div>)}
-      {/* <h2>SHOPPING CART</h2>
-      <div className='cart'>
-        <div className='cartbag'>
+  
 
+
+    const gotocheckout=()=>{
+      navigate("/checkout")
+    }
+  return (
+    // <div className='cartmain'>
+    //     {data.map((cart)=>
+    // <div>
+    //     <h1>{cart.title}</h1>
+    //     <button onClick={()=>removecartitem(cart.id)}>Remove</button>
+    // </div>)}    
+    // </div>
+
+
+    <div className='cartmain'>
+        <div className='cartitem'>
+          {data.map((cart)=>(
+            <div className='product'>
+            <div>
+              <img className='productimg'
+              src={cart.img}
+              />
+            </div>
+            <div className='productdescribe'>
+              <span className='pd1'>{cart.title}</span>
+              <br/>
+              
+              <span className='pd2'>`Rs ${cart.price}`</span>
+              <span className='pd3'>{cart.discount}</span>
+            </div>
+            <div className='productbtn'>
+            <button   className='prbtn1' onClick={()=>removecartitem(cart.id)}>Remove</button>
+              <button className='prbtn2'>
+                  Exit
+              </button>
+            </div>
+          </div>
+          ))}
         </div>
-        <div  className='cartsummary'>
+        <div className='cartinfo'>
+        {/* <div  className='cartsummary'> */}
         <h3>SUMMARY</h3>
         <input type="text" placeholder='ESTIMATE SHIPPING AND TEXT' />
         <hr/>
@@ -47,10 +79,9 @@ const Cart = () => {
             <p>price</p>
         </div>
         <hr/>
-        <button className='proceedbtn'>PROCEED TO CHECKOUT</button>
+        <button  className='prbtn3' onClick={gotocheckout}>PROCEED TO CHECKOUT</button>
         </div>
-      </div> */}
-
+        {/* </div> */}
     </div>
   )
 }

@@ -1,14 +1,20 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
+import { Link,useNavigate } from 'react-router-dom';
 import "./navbar1.css";
 import {MdKeyboardArrowDown} from "react-icons/md";
 import {navitem} from "./navdata"
 import Cartbutton from '../cartbtn/Cartbutton';
 import DropdownProduct from '../dropdown/DropdownProduct';
+import Footer from '../footer/Footer';
 
 const Navbar3 = () => {
-const [dropdown,setdropDown]=useState(false)
+const [dropdown,setdropDown]=useState(false);
+const navigate=useNavigate()
 
+const gotocartpage=()=>{
+  console.log("cartpage")
+navigate("/cart")
+}
 
   return (
     <>
@@ -39,10 +45,11 @@ const [dropdown,setdropDown]=useState(false)
       )   
      }  
      )}  
-     <Cartbutton/>  
+     <Cartbutton gotocartpage={gotocartpage}/>  
     </div>
     
     {dropdown && <DropdownProduct/>}
+    {/* <Footer/> */}
     </>
   )
 }

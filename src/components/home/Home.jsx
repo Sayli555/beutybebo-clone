@@ -8,6 +8,7 @@ import {productData1,productData2,productData3} from "./productdata"
 import Product from '../products/Product';
 import ProductOptions from '../products/ProductOptions';
 import { Link } from 'react-router-dom';
+import Footer from '../footer/Footer';
 
 const Home = () => {
   return (
@@ -71,7 +72,7 @@ Our moisturizers range from matte, ponds, creams and gels, all to ensure that yo
         </span>
       </div>
 
-   
+   <Footer/>
      
     </div>
   )

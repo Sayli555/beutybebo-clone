@@ -1,28 +1,47 @@
-import React from 'react';
-import "./cartsingle.css"
+// import React, { useState } from 'react';
+// import "./cartsingle.css";
+// import {BsCartPlusFill} from "react-icons/bs";
+// import {AiTwotoneHeart} from "react-icons/ai"
+// import axios from 'axios';
 
-const Cartsingle = () => {
-  return (
-  
-    <div className='cartmain'>
-        <div  className='singlecart'>
-        <div>
-        <img
-        src="https://www.beautybebo.com/pub/media/catalog/product/cache/c9615af5e5a6f27d0b9239c1928d8610/5/4/54_2.jpg"
-        />
-      </div>
-       <div>
-        <p>FACES CANADA PEACHES N CREAM TINTED MOISTURIZER - LIGHT 01</p>
-        <span>rs450</span>
-        <span>subtotal</span>
-        </div> 
+// const CartSingle = ({img,title,price,discount,id,collectid}) => {
+// // const handleaddcart=(id)=>{
+// //   collectid(id)
+// // }
 
-        </div>
-        <button className='removebtn'>Remove</button>
-    </div>
-    
-  
-  )
-}
 
-export default Cartsingle
+// const removecartitem=(id)=>{
+//   axios.delete(`http://localhost:8080/cart/${id}`)
+//   .then((res)=>{getData();getCount()});
+// }
+
+
+//   return (
+//     <div className='product'>
+//       <div>
+//         <img className='productimg'
+//         src={img}
+//         />
+//       </div>
+//       <div className='productdescribe'>
+//         <span className='pd1'>{title}</span>
+//         <br/>
+        
+//         <span className='pd2'>`Rs ${price}`</span>
+//         <span className='pd3'>{discount}</span>
+//       </div>
+//       <div className='productbtn'>
+//         <button className='prbtn1' onClick={()=>removecartitem(cart.id)}>
+            
+//             <span>Remove</span>
+//         </button>
+//         <button className='prbtn2'>
+//             Exit
+//         </button>
+//       </div>
+//     </div>
+//   )
+// }
+
+
+// export default CartSingle

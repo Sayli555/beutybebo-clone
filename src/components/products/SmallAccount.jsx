@@ -6,6 +6,7 @@ const SmallAccount = () => {
     const [dropDown,setDropDown]=useState(false);
     
   return (
+    <>
     <div className={dropDown?'smallAccount click' :'smallAccount' } onClick={()=>setDropDown(!dropDown)}>
     <div className='c1'>
     <Link to="/login" className='smallaccountlink1'>
@@ -18,6 +19,7 @@ const SmallAccount = () => {
       </Link>
     </div> 
     </div>
+    </>
   )
 }
 

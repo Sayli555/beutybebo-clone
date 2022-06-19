@@ -243,24 +243,34 @@
   ],
   "cart": [
     {
-      "brand": "Han Skincare Cosmetics",
-      "img": "https://cdn.shopify.com/s/files/1/0637/6147/products/HANCleanMascaraBlack_360x.png?v=1645062631",
-      "imgurl": "https://cdn.shopify.com/s/files/1/0637/6147/products/HANCleanMascaraBlack-Lifestyle1.png?v=1645062612",
-      "title": "HAN Clean Mascara",
-      "price": "20.00",
-      "category": "EYE BROW LINER",
-      "id": 2,
-      "discount": "5% Off"
+      "img": "https://cdn.shopify.com/s/files/1/0637/6147/products/Hero-LuminCollection_360x.png?v=1644630233",
+      "imgUrl2": "https://cdn.shopify.com/s/files/1/0637/6147/products/Hero-LuminMushroom.png?v=1644630210",
+      "title": "Lumin Collection",
+      "price": "139.00",
+      "brand": "Wildling",
+      "discount": "7% Off",
+      "category": "HAIR STYLE",
+      "id": 4
     },
     {
-      "img": "https://cdn.shopify.com/s/files/1/0637/6147/products/Kinship_2021_NakedApple_ProductPDP_1800px_360x.jpg?v=1644876709",
-      "imgUrl2": "https://cdn.shopify.com/s/files/1/0637/6147/products/Kinship_2021_NakedApple_Texture_0197_1080px_alt.jpg?v=1644881030",
-      "title": "Naked Apple Oil-Free Blemish Control Gel Cleanser",
-      "price": "23.00",
-      "brand": "KINSHIP",
+      "img": "https://cdn.shopify.com/s/files/1/0637/6147/products/27-Rosiers-Extra-Ordinaire-Illuminator-Kit-1-Dark_360x.png?v=1644443431",
+      "imgUrl2": "https://cdn.shopify.com/s/files/1/0637/6147/products/27-Rosiers-Extra-Ordinaire-Illuminator-Kit-2-Light.png?v=1644443328",
+      "title": "Extra/Ordinaire Skin Illuminator Full Spectrum Collection",
+      "price": "88.00",
+      "brand": "27 Rosiers",
+      "discount": "10% Off",
+      "category": "BODY CLEANERS",
+      "id": 5
+    },
+    {
+      "img": "https://cdn.shopify.com/s/files/1/0637/6147/products/gold_extraordinaire.png?v=1644546368",
+      "imgUrl2": "https://cdn.shopify.com/s/files/1/0637/6147/products/27-Rosiers-Extra-Ordinaire-Look-1-Raya-Gold-2_1cd07751-895d-4607-bd10-cabf348e0a25.jpg?v=1644540992",
+      "title": "Extra/Ordinaire Skin Illuminator",
+      "price": "32.00",
+      "brand": "27 Rosiers",
       "discount": "4% Off",
-      "category": "BODY OIL",
-      "id": 3
+      "category": "MAKEUP CREAM",
+      "id": 6
     }
   ]
 }

@@ -2,6 +2,7 @@
 import "./register.css";
 import {React ,useRef,useState} from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import Footer from "../footer/Footer";
 
 const Resister = () => {
   const navigate=useNavigate()
@@ -33,19 +34,19 @@ const Resister = () => {
                 ref={ref}
                 type="text" 
                 name="username"
-                placeholder="name" 
+                placeholder="First Name" 
                 // value={username}
                 onChange={handlechange}       
                 />
             </div>
             <div className="fname">
-            <lable>First Name</lable>
+            <lable>Last Name</lable>
                 <br/>
             <input 
                 ref={ref}
                 type="text" 
                 name="username"
-                placeholder="name" 
+                placeholder="Last Name" 
                 // value={username}
                 onChange={handlechange}       
                 />
@@ -63,7 +64,7 @@ const Resister = () => {
         <span>Sign Up for Newsletter</span>
         </div>
         <div className="Linput">
-        <lable>First Name</lable>
+        <lable>Email</lable>
                 <br/>
         <input 
         type="email" 
@@ -74,18 +75,18 @@ const Resister = () => {
         />
         </div>
         <div className="Linput">
-        <lable>First Name</lable>
+        <lable>Contact Number</lable>
                 <br/>
         <input 
         type="number" 
         name="age"
-        placeholder="age" 
+        placeholder="contact Number" 
         // value={age}
         onChange={handlechange}       
         />
         </div>
         <div className="Linput">
-        <lable>First Name</lable>
+        <lable>Password</lable>
                 <br/>
         <input 
           ref={passref}
@@ -97,7 +98,7 @@ const Resister = () => {
         />
         </div>
         <div className="Linput">
-        <lable>First Name</lable>
+        <lable>Confirm Password</lable>
                 <br/>
         <input 
           ref={passref}
@@ -112,6 +113,7 @@ const Resister = () => {
       </form>
 
     </div>
+    <Footer/>
     </>
   )
 }

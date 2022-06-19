@@ -1,0 +1,154 @@
+@media only screen and (min-width: 998px) {
+    #foot1 {
+      color: white;
+      display: flex;
+      width: 100%;
+      margin-top: 20px;
+      border-top: 1px solid rgba(128, 128, 128, 0.555);
+      padding-top: 50px;
+      font-size: 13px;
+      background-color: #232323;
+      font-size: 15px;
+    }
+    .header {
+      font-weight: bold;
+    }
+    #foot1 > div {
+      width: 15%;
+      margin-left: 100px;
+    }
+    #foot1 > div > div {
+      margin-bottom: 20px;
+      color: white;
+    }
+    #foot1 > div > div:nth-child(1) {
+      color: white;
+      font-weight: bold;
+      padding-bottom: 10px;
+      border-bottom: dotted #dd0285;
+    }
+    div > ul > li:hover {
+      color: #dd0285;
+      cursor: pointer;
+    }
+    #foot2 {
+      width: 90%;
+      margin: auto;
+  
+      border-top: 1px solid rgba(128, 128, 128, 0.5);
+      padding-top: 30px;
+    }
+    #foot2 div {
+      font-size: 16px;
+      font-weight: 700;
+      color: #666666;
+    }
+    #foot2 p {
+      font-size: 12px;
+      color: #666666;
+      line-height: 15px;
+    }
+    #foot3 {
+      width: 90%;
+      margin: auto;
+      text-align: center;
+      color: gray;
+      font-size: 12px;
+      margin: 80px;
+    }
+    #sptext {
+      display: flex;
+    }
+    #sptext > div:hover {
+      cursor: pointer;
+    }
+    #sptext img {
+      width: 25px;
+    }
+    .fas {
+      font-size: 25px;
+    }
+    .fab {
+      padding: 7px 15px;
+    }
+    #resfoot {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 767px) and (max-width: 998px) {
+    #foot1 {
+      display: grid;
+      width: 95%;
+      margin: auto;
+      grid-template-columns: repeat(3, 31%);
+      margin-top: 20px;
+      border-top: 1px solid rgba(128, 128, 128, 0.555);
+      padding-top: 50px;
+      font-size: 13px;
+    }
+    #foot1 > div > div {
+      margin-bottom: 20px;
+      color: rgba(0, 0, 0, 0.753);
+    }
+    #foot1 > div > div:hover {
+      color: red;
+      cursor: pointer;
+    }
+    #foot1 > div > div:nth-child(1) {
+      width: 200px;
+      color: black;
+      font-weight: bold;
+      padding-bottom: 10px;
+      border-bottom: 2px solid gray;
+    }
+    #foot1 > div > div:nth-child(1):hover,
+    #foot1 > div > div:nth-child(5):hover,
+    #foot1 > div > div:nth-child(7):hover {
+      color: black;
+      cursor: auto;
+    }
+    #sptext {
+      display: flex;
+    }
+    #sptext > div:hover {
+      cursor: pointer;
+    }
+    #sptext img {
+      width: 25px;
+    }
+    .fas {
+      font-size: 25px;
+    }
+    .fab {
+      padding: 7px 15px;
+    }
+  
+    #foot2 {
+      width: 90%;
+      margin: auto;
+      border-top: 1px solid rgba(128, 128, 128, 0.5);
+      padding-top: 30px;
+    }
+    #foot2 div {
+      font-size: 16px;
+      font-weight: 700;
+      color: #666666;
+    }
+    #foot2 p {
+      font-size: 12px;
+      color: #666666;
+      line-height: 15px;
+    }
+    #foot3 {
+      width: 90%;
+      margin: auto;
+      text-align: center;
+      color: gray;
+      font-size: 12px;
+      margin: 80px;
+    }
+    #resfoot {
+      display: none;
+    }
+  }

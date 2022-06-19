@@ -5,7 +5,8 @@ import "./foundation.css";
 import {Link} from "react-router-dom";
 import {AiOutlinePlus} from "react-icons/ai"
 import { categories } from '../AllCategories/categori';
-import axios from "axios"
+import axios from "axios";
+import Footer from "../footer/Footer"
 
 
 
@@ -53,6 +54,7 @@ const [prod,setProd]=useState();
 console.log("pr",products)
 
   return (
+    <>
     <div className='foundationmain'>
       <div className='foundationleft1'>
       {categories.map((el)=>(
@@ -85,6 +87,8 @@ console.log("pr",products)
         </div>
       </div>
     </div>
+    
+    </>
   )
 }
 
