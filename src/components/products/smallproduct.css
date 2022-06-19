@@ -1,0 +1,35 @@
+.smallAccount{
+    /* border: 1px solid black; */
+    width:120px;
+    margin-left: 83%;
+    position: absolute;
+    
+    margin-top: -25px;
+    background-color: black;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.smallAccount.click{
+    display: none;
+    position: relative;  
+    background-color: black;
+    color: white;
+}
+.smallAccount>div{
+padding: 6px;
+width:120px;
+background-color: black;
+color: white;
+box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.smallaccountlink1{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+
+}
+.c1{
+    background-color: black;
+    color: white;
+}

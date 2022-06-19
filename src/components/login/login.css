@@ -1,0 +1,64 @@
+.login{
+    width:95%;
+    margin: auto;
+}
+.loginRegister{
+    display: flex;
+}
+.registeruser{
+    /* border: 1px solid black; */
+    padding: 30px;
+    width:42%;
+    margin-right: 2%;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;}
+.lable{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.rinput{
+    margin-bottom: 25px;
+}
+.rinput>input{
+    width:98%;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.signbtn{
+    width:100px;
+    padding: 10px;
+    border: none;
+    color: white;
+    margin-right: 20px;
+    background-color: #444444;
+}
+.signbtn:hover{
+    width:100px;
+    padding: 10px;
+    border: none;
+    color: white;
+   
+    background-color: #dd0285;
+}
+.signforgetpass:hover{
+    color: #dd0285; ;
+
+}
+.signforgetlink{
+    text-decoration: none;
+    color: black;
+}
+.creattn{
+    width:200px;
+
+    padding: 10px;
+    border: none;
+    color: white;
+    margin-right: 20px;
+    background-color: #444444;
+}
+.creattn:hover{
+    padding: 10px;
+    border: none;
+    color: white;
+   
+    background-color: #dd0285;
+}

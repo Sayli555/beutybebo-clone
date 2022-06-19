@@ -1,0 +1,14 @@
+.cartmain{
+    padding: 20px;
+    border: 1px solid black;
+   width:500px
+}
+
+
+
+.singlecart{
+    display: flex;
+    width:500px;
+ 
+    border: 1px solid black;
+}

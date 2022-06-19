@@ -1,0 +1,52 @@
+.longimg{
+    
+    margin: auto;
+    width:95%;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+.product1{
+margin: auto;
+width:93%;
+    /* border: 1px solid black; */
+
+    margin-top: 20px;
+    display: flex;
+}
+.Bannermaindiv{
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+    width:600px;
+    height: 280px;
+    margin-left:50px;
+    margin-top: 20px;
+    display: flex;
+    /* border: 1px solid black; */
+}
+.Bannermaindi>img{
+    width:600px;
+    height: 280px;
+    margin: auto;
+   
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.homeproductoption{
+    display: flex;
+    /* border: 1px solid black; */
+    width:92%;
+    margin: auto;
+    margin-top: 20px;
+}
+.prlink{
+    text-decoration: none;
+}
+.landingDescribe{
+    width:93%;
+    margin: auto;
+    /* border: 1px solid; */
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(56, 56, 56);
+}
+.d1{
+    margin-bottom: 20px;
+    line-height: 20px;
+}

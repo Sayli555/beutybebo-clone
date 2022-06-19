@@ -1,0 +1,44 @@
+.AllCat{
+    width:90%;
+    display: flex;
+    height: 400px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    /* border: 1px solid black; */
+    margin-top:10px ;
+    position: relative;
+    padding:5px;
+    
+}
+img{
+    margin-left: 15px;
+}
+.categoriesTitle{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+.optionlogo{
+    font-size: 18px;
+    font-weight: bold;
+}
+.allLeft{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    /* border: 1px solid black; */
+    width:20%;
+    height: 93%;
+    padding: 15px;   
+}
+.categoriesTitle>span{
+  margin-left: 10%;
+  font-weight: bold;
+}
+.categorieslink{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.categories{
+    margin-top: 15px;
+}
+

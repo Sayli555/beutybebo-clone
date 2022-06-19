@@ -1,0 +1,12 @@
+.cartbutton{
+    /* border: 1px solid black; */
+    background-color: #c60277;
+    width:auto;
+    margin-left: 120px;
+    height: auto;
+    padding: 15px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+   
+}

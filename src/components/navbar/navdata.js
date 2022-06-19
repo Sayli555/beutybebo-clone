@@ -1,0 +1,60 @@
+import {MdKeyboardArrowDown} from "react-icons/md"
+
+export const navitem=[
+    {
+        id:1,
+        title:"MAKEUP",
+        logo:<MdKeyboardArrowDown/>,
+        path:"/makeup",
+        cname:"nav-item"
+    },
+    {
+        id:2,
+        title:"SKIN",
+        logo:<MdKeyboardArrowDown/>,
+        path:"/skin",
+        cname:"nav-item"
+    },
+    {
+        id:3,
+        title:"HAIR",
+        logo:<MdKeyboardArrowDown/>,
+        path:"/hair",
+        cname:"nav-item"
+    },
+    {
+        id:4,
+        title:"PERSONAL CARE",
+        logo:<MdKeyboardArrowDown/>,
+        path:"/personalcare",
+        cname:"nav-item"
+    },
+    {
+        id:5,
+        title:"MOM & BABY CARE",
+        logo:<MdKeyboardArrowDown/>,
+        path:"/mombabycare",
+        cname:"nav-item"
+    },
+    {
+        id:6,
+        title:"FRAGRANCE",
+        logo:<MdKeyboardArrowDown/>,
+        path:"/fragrance",
+        cname:"nav-item"
+    },
+    {
+        id:7,
+        title:"AYURVEDA",
+        logo:<MdKeyboardArrowDown/>,
+        path:"/ayurveda",
+        cname:"nav-item"
+    },
+    {
+        id:8,
+        title:"BRANDS",
+        logo:<MdKeyboardArrowDown/>,
+        path:"/brands",
+        cname:"nav-item"
+    }
+]
