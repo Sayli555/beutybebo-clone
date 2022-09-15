@@ -15,12 +15,12 @@ const Cart = () => {
     },[])
     
     const getData=()=>{
-  axios.get(" http://localhost:8080/cart")
+  axios.get(" https://beauty-bebo424.herokuapp.com/api/cart")
   .then((res)=>setData(res.data));
 
 }
     const removecartitem=(id)=>{
-        axios.delete(`http://localhost:8080/cart/${id}`)
+        axios.delete(`https://beauty-bebo424.herokuapp.com/api/cart/${id}`)
         .then((res)=>{getData();getCount()});
     }
   

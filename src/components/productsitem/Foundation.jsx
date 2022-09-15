@@ -18,12 +18,12 @@ const Foundation = () => {
 const [prod,setProd]=useState();
 
   const handleaddcart=(id)=>{
-    axios.get(" http://localhost:8080/foundation")
+    axios.get(" https://beauty-bebo424.herokuapp.com/api/foundation")
     .then((res)=>setData(res.data));
     for(let i=0;i<data.length;i++){
       if(data[i].id==id){  
         setProd(data[i]);
-        axios.post("http://localhost:8080/cart",data[i]).then((res)=>{
+        axios.post("https://beauty-bebo424.herokuapp.com/api/cart",data[i]).then((res)=>{
           console.log("cart",res.data)
         })
         break;
@@ -32,7 +32,7 @@ const [prod,setProd]=useState();
   }
   useEffect(()=>{
     const getData=async()=>{
-        let data=await fetch("http://localhost:8080/foundation");
+        let data=await fetch("https://beauty-bebo424.herokuapp.com/api/foundation");
         let r=await data.json();
         // console.log(r);
           setProduct(r);
